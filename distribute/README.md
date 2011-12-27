@@ -2,7 +2,7 @@
 
 A script for transferring [Func](https://fedorahosted.org/func/) modules among minions. 
 
-Distribute runs the module through [pyflakes](https://launchpad.net/pyflakes) if installed, copies the module to its minions, and restarts ```funcd```.
+Distribute runs the module through [pyflakes](https://launchpad.net/pyflakes) if installed, copies the module to its minions, and restarts `funcd`.
 
 ## Usage
 ```distribute.py [options] [module(s) path]```
