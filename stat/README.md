@@ -17,7 +17,9 @@ Copy `stat.py` to Func's module directory (e.g. /usr/lib/python2.4/site-packages
 ```-t, --wait-time``` specify the time interval between polling a minion for a completed job in seconds. Default is 1 second
 
 ## Examples
+
 Run a short stat on all minions:
+
     # ./minionstat.py
     <<< kidtoyz.rutgers.edu >>>
     Uptime: 216 days 15 hours 41 minutes
@@ -39,6 +41,7 @@ Run a short stat on all minions:
      /dev/xvda1               483886      37976       420910      9     /boot          
 
 Run a long stat on one minion:
+
     # ./minionstat.py -v -m kidtoyz.rutgers.edu
 
     <<< kidtoyz.rutgers.edu >>>
