@@ -87,7 +87,7 @@ Run a long stat on one minion:
      16.9 MiB    mysqld
      8.5 MiB     sshd (5)
 
-    iostat:
+    IO Status:
      Device     tps         Blk_read/s  Blk_wrtn/s  Blk_read    Blk_wrtn    
      xvda       2.64        0.87        46.51       16247990    870713660   
      xvda1      0.00        0.00        0.00        2140        52          
